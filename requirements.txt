@@ -1,0 +1,11 @@
+gym==0.20.0
+gym_games==1.0.3
+matplotlib==3.4.2
+numpy==1.20.3
+opencv_python==4.5.3.56
+pandas==1.3.3
+PennyLane==0.19.1
+psutil==5.8.0
+pybullet==3.2.1
+seaborn==0.11.2
+torch==1.8.0

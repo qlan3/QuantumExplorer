@@ -1,0 +1,36 @@
+{
+  "env": [
+    {
+      "name": ["Pendulum-v0"],
+      "max_episode_steps": [-1],
+      "input_type": ["feature"]
+    }
+  ],
+  "train_steps": [5e4], 
+  "test_per_episodes": [-1],
+  "exploration_steps": [1e3],
+  "memory_size": [1e4],
+  "agent": [{"name": ["SAC"]}],
+  "optimizer": [
+    {
+      "name": ["Adam"],
+      "actor_kwargs": [{"lr": [1e-1, 3e-2, 1e-2, 3e-3, 1e-3, 3e-4]}],
+      "critic_kwargs": [{"lr": [3e-3]}]
+    }
+  ],
+  "batch_size": [32],
+  "network_update_frequency": [1],
+  "actor_update_frequency": [1],
+  "discount": [0.99],
+  "polyak": [0.995],
+  "alpha": [0.2],
+  "gradient_clip": [-1],
+  "hidden_layers": [[32,32]],
+  "hidden_act": ["ReLU"],
+  "display_interval": [1],
+  "rolling_score_window": [{"Train": [10], "Test": [5]}],
+  "seed": [1],
+  "device": ["cpu"],
+  "show_tb": [false],
+  "generate_random_seed": [true]
+}
