@@ -4,7 +4,7 @@ A quantum reinforcement learning framework for exploring new ideas, based on PyT
 
 ## Implemented algorithms
 
-- [Variational Quantum Soft Actor-Critic (QuantumSAC)](https://arxiv.org/)
+- [Variational Quantum Soft Actor-Critic (QuantumSAC)](https://arxiv.org/abs/2112.11921)
 
 ## Requirements
 
@@ -84,7 +84,7 @@ Enjoy!
 
 ## Code of My Papers
 
-- **Qingfeng Lan**. **Variational Quantum Soft Actor-Critic.** [[paper]](https://arxiv.org/)
+- **Qingfeng Lan**. **Variational Quantum Soft Actor-Critic.** arXiv preprint arXiv:2112.11921, 2021. [[paper]](https://arxiv.org/abs/2112.11921)
 
 ## Cite
 
