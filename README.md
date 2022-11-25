@@ -73,7 +73,7 @@ parallel --eta --ungroup python main.py --config_file ./configs/sac.json --confi
 
 ### Analysis (Optional)
 
-To analysis the experimental results, just run:
+To analyze the experimental results, just run:
 
 `python analysis.py`
 
