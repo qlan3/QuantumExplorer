@@ -1,6 +1,6 @@
-# QuantumExplorer
+# Quantum Explorer
 
-QuantumExplorer is a quantum reinforcement learning framework based on PyTorch and PennyLane.
+Quantum Explorer is a quantum reinforcement learning framework based on PyTorch and PennyLane.
 
 ## Implemented algorithms
 
